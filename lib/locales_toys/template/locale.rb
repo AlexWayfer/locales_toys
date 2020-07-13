@@ -6,11 +6,9 @@ require 'yaml'
 class Locale
 	attr_reader :code, :hash
 
-	EXT = '.yml'
-
-	def self.load
-		Dir["#{context_directory}/locales/*#{EXT}"].map do |file|
-			new File.basename(file, EXT), YAML.load_file(file)
+	def self.load(context_directory)
+		Dir["#{context_directory}/locales/*.y{a,}ml"].map do |file|
+			new File.basename(file, '.*'), YAML.load_file(file) || {}
 		end
 	end
 

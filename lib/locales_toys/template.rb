@@ -18,7 +18,7 @@ module LocalesToys
 						require 'yaml'
 						require 'json'
 
-						locales = Locale.load
+						locales = Locale.load(context_directory)
 
 						locales.each_with_index do |locale, ind|
 							locales[ind..-1].each do |other_locale|
