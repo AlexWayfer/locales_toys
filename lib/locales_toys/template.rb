@@ -21,7 +21,7 @@ module LocalesToys
 						locales = Locale.load(context_directory)
 
 						locales.each_with_index do |locale, ind|
-							locales[ind..-1].each do |other_locale|
+							locales[ind..].each do |other_locale|
 								next if locale == other_locale
 
 								compare_locales(locale, other_locale)
