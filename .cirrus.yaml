@@ -21,7 +21,7 @@ remark_task:
       - cat package.json
   install_script: npm install
   lint_script: npm run remark
-  only_if: ($CIRRUS_BRANCH == 'master') ||
+  only_if: ($CIRRUS_BRANCH == 'main') ||
     changesInclude(
       '.cirrus.yaml', '.gitignore', 'package.json', '.remarkrc.yaml', '**.md'
     )
@@ -31,7 +31,7 @@ rubocop_task:
     image: ruby:latest
   <<: *bundle_cache
   lint_script: bundle exec rubocop
-  only_if: ($CIRRUS_BRANCH == 'master') ||
+  only_if: ($CIRRUS_BRANCH == 'main') ||
     changesInclude(
       '.cirrus.yaml', '.gitignore', 'Gemfile', 'Rakefile', '.rubocop.yml', '*.gemspec',
       '**.rb', '**.ru'
@@ -51,7 +51,7 @@ rspec_task:
   environment:
     CODECOV_TOKEN: ENCRYPTED[741bc9f233d57e409b0de3c3ae34ae6bda36c58aae2ed67ccf36c60a6b7b858db270d790b0205ed311ddaa3b2e5e145a]
   test_script: bundle exec rspec
-  only_if: ($CIRRUS_BRANCH == 'master') ||
+  only_if: ($CIRRUS_BRANCH == 'main') ||
     changesInclude(
       '.cirrus.yaml', '.gitignore', 'Gemfile', 'Rakefile', '.rspec', '*.gemspec', 'lib/**',
       'spec/**'
