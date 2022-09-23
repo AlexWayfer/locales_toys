@@ -5,8 +5,8 @@
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/AlexWayfer/locales_toys.svg?style=flat-square)](https://codeclimate.com/github/AlexWayfer/locales_toys)
 [![Depfu](https://img.shields.io/depfu/AlexWayfer/benchmark_toys?style=flat-square)](https://depfu.com/repos/github/AlexWayfer/locales_toys)
 [![Inline docs](https://inch-ci.org/github/AlexWayfer/locales_toys.svg?branch=main)](https://inch-ci.org/github/AlexWayfer/locales_toys)
-[![license](https://img.shields.io/github/license/AlexWayfer/locales_toys.svg?style=flat-square)](https://github.com/AlexWayfer/locales_toys/blob/main/LICENSE.txt)
 [![Gem](https://img.shields.io/gem/v/locales_toys.svg?style=flat-square)](https://rubygems.org/gems/locales_toys)
+[![License](https://img.shields.io/github/license/AlexWayfer/locales_toys.svg?style=flat-square)](LICENSE.txt)
 
 Toys template for locales, for example, [R18n](https://github.com/r18n/r18n).
 
