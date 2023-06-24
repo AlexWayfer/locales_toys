@@ -51,12 +51,12 @@ class Locale
 		def differences_in_array(array, other_array)
 			return array if array.size != other_array.size
 
-			array.zip(other_array).map do |object, other_object|
+			array.zip(other_array).filter_map do |object, other_object|
 				next if !object.is_a?(Hash) || !other_object.is_a?(Hash)
 
 				difference = self.class.new(object, other_object).different_keys
 				difference unless difference.empty?
-			end.compact
+			end
 		end
 	end
 
