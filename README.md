@@ -1,6 +1,6 @@
 # Locales Toys
 
-[![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/AlexWayfer/locales_toys?style=flat-square)](https://cirrus-ci.com/github/AlexWayfer/locales_toys)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AlexWayfer/locales_toys/ci.yml?style=flat-square)](https://github.com/AlexWayfer/locales_toys/actions)
 [![Codecov branch](https://img.shields.io/codecov/c/github/AlexWayfer/locales_toys/main.svg?style=flat-square)](https://codecov.io/gh/AlexWayfer/locales_toys)
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/AlexWayfer/locales_toys.svg?style=flat-square)](https://codeclimate.com/github/AlexWayfer/locales_toys)
 [![Depfu](https://img.shields.io/depfu/AlexWayfer/benchmark_toys?style=flat-square)](https://depfu.com/repos/github/AlexWayfer/locales_toys)
