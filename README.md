@@ -2,7 +2,6 @@
 
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AlexWayfer/locales_toys/ci.yml?style=flat-square)](https://github.com/AlexWayfer/locales_toys/actions)
 [![Codecov branch](https://img.shields.io/codecov/c/github/AlexWayfer/locales_toys/main.svg?style=flat-square)](https://codecov.io/gh/AlexWayfer/locales_toys)
-[![Code Climate](https://img.shields.io/codeclimate/maintainability/AlexWayfer/locales_toys.svg?style=flat-square)](https://codeclimate.com/github/AlexWayfer/locales_toys)
 [![Depfu](https://img.shields.io/depfu/AlexWayfer/benchmark_toys?style=flat-square)](https://depfu.com/repos/github/AlexWayfer/locales_toys)
 [![Inline docs](https://inch-ci.org/github/AlexWayfer/locales_toys.svg?branch=main)](https://inch-ci.org/github/AlexWayfer/locales_toys)
 [![Gem](https://img.shields.io/gem/v/locales_toys.svg?style=flat-square)](https://rubygems.org/gems/locales_toys)
